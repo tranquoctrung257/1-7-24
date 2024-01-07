@@ -28,3 +28,30 @@
 # ctrl F để tìm kiếm
 
 # ctrl + j mở terminal
+
+# hàm print
+print("hello word",end="")
+# ,end="" dùng để xóa kí tự xuống dòng của hàm print tiếp theo vì vậy nó sẽ in cùng dòng với hàm print tiếp
+
+print(1,3,4,5,6,7,8,9,sep="#")
+# ,sep ="#" nó sẽ ngăn các các 
+
+a = "xin chào"
+print(a.upper()) # viết hoa tất cả 
+print(a.lower()) # viết thường tất cả
+print(a.title()) # viết hoa chữ cái đầu tiên của mỗi chữ
+print(a.capitalize()) # viết hoa chữ cái đầu
+
+# cách ép kiểu
+age = 34
+
+print(f"I am {age}")
+print("I am",age)
+print("I am " + str(age))
+print("I am {}".format(age))
+
+
+# để nhập dữ liệu từ bàn phím ta dùng hàm input
+
+z = input("nhập tuổi của bạn: ")
+print("tuổi của bạn là {}".format(z))
