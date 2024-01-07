@@ -26,3 +26,5 @@
 # ctrl shift L để chọn nhiều từ từ 1 từ mình mới bôi đen
 
 # ctrl F để tìm kiếm
+
+# ctrl + j mở terminal
