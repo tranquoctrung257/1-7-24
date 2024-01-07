@@ -17,7 +17,7 @@
 # bỏ tích Run In Terminal
 # tích vào mục Execute In File Dir
 # tích vào Format On Save
-# vào mục Executor Map rồi cho dòng python như thế này 
+# vào mục Executor Map rồi cho dòng python như thế này "python": "set PYTHONIOENCODING=utf8 && python -u",
 
 # để chụp hình bằng code runner thì bôi đên code rồi ấn ctrl+shift+p hoặc ấn chuột phải chọn code snap
 
@@ -28,6 +28,8 @@
 # ctrl F để tìm kiếm
 
 # ctrl + j mở terminal
+
+# win + . để mở hộp thoại stick
 
 # hàm print
 print("hello word",end="")
