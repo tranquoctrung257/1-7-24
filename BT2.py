@@ -11,9 +11,15 @@ num2 = num1
 print(num1)
 print(num2 )
 
-# bài 3: định nghĩa 2 biến number1, number2 tích của chúng bằng 49
+# bài 3: định nghĩa 2 biến number1, number2 tích của chúng bằng 49  
+number1 = 9.8
+number2 = 5
+print(number1*number2)
 
 # bài 4: nhập tên và tuổi của bạn và in ra tên tuổi của bạn trên cùng một hàng và cách nhau bởi dấu |
+name = input("nhập tên của bạn: ")
+age = int(input("nhập tuổi của bạn: "))
+print(f"tên: {name} | tuổi: {age}")
 
 # bài 5: nhập vào số nguyên n, số thực z, chuỗi s và in các giá trị của chúng trên các dòng riêng biệt
 print("-"*40)
