@@ -90,4 +90,4 @@ print(s)
 # hàm split()
 
 lst = s.split()
-print(lst)
+print(lst) 
