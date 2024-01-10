@@ -31,6 +31,12 @@
 
 # win + . để mở hộp thoại stick
 
+# để nhân bản 1 dòng nhấn shift art mũi tên xuống
+
+# để tìm 1 từ nào đó trong cả file nhấn ctrl shift L
+
+# để tìm 1 từ nào đó giống từ mình đang bôi đen thì nhấn ctrl D
+
 # hàm print
 print("hello word",end="")
 # ,end="" dùng để xóa kí tự xuống dòng của hàm print tiếp theo vì vậy nó sẽ in cùng dòng với hàm print tiếp
