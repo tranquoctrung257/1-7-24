@@ -37,6 +37,12 @@
 
 # để tìm 1 từ nào đó giống từ mình đang bôi đen thì nhấn ctrl D
 
+# để kiểm tra phiên bản python hiện tại nhấn python -V
+
+# để kiểm tra trong mấy có bao nhiêu phiên bản python nhấn: py -0p
+
+# để hiện thị tất cả đường dẫn python nhấn where python 
+
 # hàm print
 print("hello word",end="")
 # ,end="" dùng để xóa kí tự xuống dòng của hàm print tiếp theo vì vậy nó sẽ in cùng dòng với hàm print tiếp
