@@ -69,3 +69,10 @@ print("I am {}".format(age))
 
 z = input("nhập tuổi của bạn: ")
 print("tuổi của bạn là {}".format(z))
+
+# chú ý
+print(float("nan"))  # ==> nan
+print(float("inf"))
+print(float("-inf"))
+
+# chuyển đổi đươc mà sẽ không ra lỗi
