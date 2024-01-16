@@ -32,6 +32,7 @@ print(f"những người bạn học vẽ hay toán không phải cả hai: {art
 art_math_all = math_students.union(art_students)
 print(f"tất cả những người bạn: {art_math_all}")
 
+import json
 '''
 Cho dict sau:
 album_info = {
@@ -85,11 +86,11 @@ print("giá trị của album_name là: ",album_info.get("album_name"))
 
 # b.
 album_info["release_year"] = 1971
-print("giá trị sau thay đổi là: ",album_info)
+print("giá trị sau thay đổi là: ",json.dumps(album_info,indent=4))
 
 # c.
 del album_info["track_list"]
-print("giá trị hiện tại là:",album_info)
+print("giá trị hiện tại là:",json.dumps(album_info,indent=4))
 
 # d.
 # c1
@@ -98,7 +99,7 @@ info = {"amount":2000}
 
 # c2
 album_info["amount"] = 2000
-print("giá trị sau thay dổi là: ",album_info)
+print("giá trị sau thay dổi là: ",json.dumps(album_info,indent=4))
 
 # e.
 album_info.clear()

@@ -76,3 +76,5 @@ print(float("inf"))
 print(float("-inf"))
 
 # chuyển đổi đươc mà sẽ không ra lỗi
+
+# để mở lại các thư mục vừa mở thì nhấn file chọn open recent
