@@ -32,7 +32,7 @@ for n in range(2, 101):
         
 print(count)
 
-# 5.Nhập vào một số nguyên dương n tính tổng các chữ số của n. Ví dụ: n = 4312 => S = 4 + 3 + 1 + 2 = 10
+# 5.Nhập vào một số nguyên dương n tính tổng các chữ số của n. Ví dụ: n = 4312 => S = 4 + 3 + 2 + 1 = 10
 n = int(input("nhập số nguyên dương n: "))
 s = 0
 while n > 0:
