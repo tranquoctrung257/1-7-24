@@ -64,3 +64,58 @@ my_func()
 add = lambda x,y : x+y
 print(add(1,2))
 
+def greet(msg):
+    return "Hello, ",msg
+
+hello = greet
+print(hello("Jen"))
+
+# *args
+def add(x,y,z,t):
+    return x+y+z+t
+print(add(2,3,4,5))
+
+
+def add(*args):
+    print(type(args))
+    return sum(args)
+# các đối số vị trí là những đối số không có tên
+# *args chỉ lấy những đối số không tên
+print(add(2,3,4,5))
+
+lst = [2,4,6,7,4]
+print(*lst)
+
+lst = [3,10,4,5,6,7]
+
+# để in ra số đầu, giữa , cuối
+first, *mid, last = lst
+print(first)
+print(mid)
+print(last)
+
+*first, last = lst
+print(first)
+print(last)
+
+def add(*lst, operation):
+    return operation(lst)
+
+print(add(1,2,3,4,operation=sum))
+
+# ko nên nhân 1 list với 1 số
+lst = [[]] * 5
+lst[1].append(2)
+print(lst)
+
+# để khắc phục 
+lst = [[] for _ in range(5)]
+lst[1].append(2)
+print(lst)
+
+# tham số mặc định phải đứng sau tham số có tên
+# def func(a=3,b):
+#     pass
+
+def func(b,a=3):
+    pass
