@@ -64,3 +64,14 @@ for i in range(1,n+1):
         le+=1
 print(f"chẵn: {chan}")
 print(f"lẻ: {le}")
+
+class Student:
+    def __init__(self, name, birth_year):
+        self.name = name
+        self.birth_year = birth_year
+        
+    def get_age(self):
+        return 2023 - self.birth_year
+    
+    def __str__(self):
+        return f"Name: {self.name}, age: {self.get_age()}"
